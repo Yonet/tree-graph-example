@@ -1,0 +1,38 @@
+{
+  "name": "tree-graph",
+  "authors": [
+    "Aysegul Yonet <aysegulyonet@gmail.com>"
+  ],
+  "description": "D3 Tree graph directive based on Mike Bostocks example",
+  "main": "d3-tree.js",
+  "keywords": [
+    "d3",
+    "angular",
+    "directive",
+    "tree",
+    "layout"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.11",
+    "d3": "~3.5.3"
+  },
+  "homepage": "https://github.com/Yonet/tree-graph",
+  "_release": "c7dbd18cdf",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "c7dbd18cdf3a4c8c4f621d782f44c0bfb1cfe40e"
+  },
+  "_source": "git://github.com/Yonet/tree-graph.git",
+  "_target": "*",
+  "_originalSource": "Yonet/tree-graph",
+  "_direct": true
+}
