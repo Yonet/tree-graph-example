@@ -1,0 +1,29 @@
+{
+  "name": "exampleApp",
+  "version": "0.0.0",
+  "authors": [
+    "Aysegul Yonet <aysegulyonet@gmail.com>"
+  ],
+  "description": "Example app for d3-tree",
+  "main": "app.js",
+  "keywords": [
+    "example",
+    "d3",
+    "yon-tree",
+    "d3-tree",
+    "directive",
+    "angular"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "tree-graph": "Yonet/tree-graph"
+  }
+}

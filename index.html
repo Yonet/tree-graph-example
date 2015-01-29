@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<style>
+
+	.node circle {
+	  fill: #fff;
+	  stroke: steelblue;
+	  stroke-width: 1.5px;
+	}
+
+	.node {
+	  font: 10px sans-serif;
+	}
+
+	.link {
+	  fill: none;
+	  stroke: #ccc;
+	  stroke-width: 1.5px;
+	}
+
+	</style>
+		
+	</head>
+	<body ng-app="app">
+		<div ng-controller="MainController">
+			<yon-tree
+				data="exampleData"
+				width="900"
+				height="2000"
+			>
+			</yon-tree>
+			
+		</div>
+		
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/d3/d3.js"></script>
+		<script src="bower_components/tree-graph/d3-tree.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
